@@ -1,0 +1,30 @@
+{
+  "name": "readme-blog",
+  "version": "0.0.1",
+  "description": "vuepress blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhb333/readme-blog.git"
+  },
+  "keywords": [
+    "vuepress",
+    "blog"
+  ],
+  "author": "zhb333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhb333/readme-blog/issues"
+  },
+  "homepage": "https://github.com/zhb333/readme-blog#readme",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.2.0",
+    "lodash": "^4.17.15",
+    "vue-draggable-resizable-gorkys": "^2.3.6",
+    "vuepress": "^1.4.0"
+  }
+}
