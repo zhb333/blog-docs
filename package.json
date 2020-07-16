@@ -23,7 +23,7 @@
   "homepage": "https://github.com/zhb333/readme-blog#readme",
   "devDependencies": {
     "@vuepress/theme-blog": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "vue-draggable-resizable-gorkys": "^2.3.6",
     "vuepress": "^1.4.0"
   }
