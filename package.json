@@ -4,11 +4,10 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "start": "pm2 start app.js"
   },
   "devDependencies": {
-    "vuepress": "1.7.1",
-    "vuepress-theme-reco": "1.6.1",
     "@vue/composition-api": "^1.0.0-beta.20",
     "@vuepress-reco/core": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
@@ -20,7 +19,13 @@
     "docsearch.js": "2.6.3",
     "md5": "2.2.1",
     "vue-click-outside": "1.1.0",
-    "vuepress-plugin-smooth-scroll": "^0.0.9"
+    "vuepress": "1.7.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
+    "vuepress-theme-reco": "1.6.1"
   },
-  "description": "静态博客网站"
+  "description": "静态博客网站",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0"
+  }
 }
