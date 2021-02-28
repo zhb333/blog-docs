@@ -36,10 +36,20 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
+            "text": "简书",
+            "link": "https://www.jianshu.com/u/f22487800f07",
+            "icon": "reco-jianshu"
+          },
+          {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/zhb333",
             "icon": "reco-github"
-          }
+          },
+          {
+            "text": "Gitee",
+            "link": "https://gitee.com/zhanghuanbiao",
+            "icon": "reco-mayun"
+          },
         ]
       }
     ],
