@@ -20,6 +20,7 @@ module.exports = {
   ],
   // "theme": "reco",
   "themeConfig": {
+    mode: 'light',
     "nav": [
       {
         "text": "首页",
